@@ -51,6 +51,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="-"
+            android:onClick="restar"
             />
         <TextView
             android:id="@+id/txtcantidad"
@@ -63,6 +64,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="+"
+            android:onClick="sumar"
             />
 
     </LinearLayout>
